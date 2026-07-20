@@ -33,11 +33,16 @@ body:
     attributes:
       label: 测试版本
       options:
+        - BoostKit POC
         - BoostKit 25.3.0
         - BoostKit 26.0.0
         - BoostKit 26.1.0
         - BoostKit 26.2.0
         - BoostKit 26.3.0
+        - BoostKit 27.0.0
+        - BoostKit 27.1.0
+        - BoostKit 27.2.0
+        - BoostKit 27.3.0
     validations:
       required: true
 
