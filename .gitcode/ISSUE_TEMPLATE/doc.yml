@@ -1,14 +1,14 @@
-name: 缺陷
-description: 当您发现了一个缺陷，需要向社区反馈时，请使用此模板。
+name: "资料"
+description: "当您需要对资料进行检视、测试、验收、现网维护、资料专项优化提交反馈时，请使用此模板。"
 title: "[资料]: "
-labels: ["Doc"]
+labels: ["资料:"]
 type: "资料"
 body:
   - type: markdown
     attributes:
       value: |
        ## 感谢您的报告！
-       请认真填写以下信息，否则可能由于无法定位，导致issue无法解决而被取消。
+       感谢您为项目贡献资料反馈信息！请。
 
   - type: dropdown
     id: test_type
@@ -19,8 +19,7 @@ body:
         - 资料检视
         - 测试和验收        
         - 资料专项优化        
-        - 现网问题维护       
-        
+        - 现网问题维护               
     validations:
       required: true
 
@@ -40,18 +39,18 @@ body:
     attributes:
       label: 严重级别
       options:
-        - Serious
-        - Main
-        - Secondary
-        - Optional
-        - No priority
+        - 致命
+        - 严重
+        - 一般
+        - 建议        
     validations:
       required: true
 
   - type: textarea
     attributes:
       label: 内容描述
-      placeholder: "
+      placeholder: 
+      "
       【文档链接】：
       【内容描述】：      
       "
