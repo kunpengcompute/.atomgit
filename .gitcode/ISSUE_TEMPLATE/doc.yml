@@ -2,7 +2,7 @@ name: 缺陷
 description: 当您发现了一个缺陷，需要向社区反馈时，请使用此模板。
 title: "[资料]: "
 labels: ["Doc"]
-type: "缺陷"
+type: "资料"
 body:
   - type: markdown
     attributes:
@@ -17,9 +17,9 @@ body:
       multiple: true
       options:
         - 资料检视
-        - 测试、验收
-        - 资料整改和优化        
-        - 现网维护
+        - 测试和验收        
+        - 资料专项优化        
+        - 现网问题维护       
         
     validations:
       required: true
@@ -62,13 +62,11 @@ body:
     attributes:
       label: 提单组织
       options:
-        - 社区用户
-        - 联合伙伴
+        - 外部社区用户        
         - 内部测试
         - 内部开发
-        - 内部服务、PAE
-        - 内部资料
-        - 一线客户
+        - 内部服务、PAE、SA等
+        - 内部资料        
     validations:
       required: true
 
