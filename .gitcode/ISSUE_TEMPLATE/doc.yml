@@ -1,0 +1,72 @@
+name: 缺陷
+description: 当您发现了一个缺陷，需要向社区反馈时，请使用此模板。
+title: "[资料]: "
+labels: ["Doc"]
+type: "资料"
+body:
+  - type: markdown
+    attributes:
+      value: |
+       ## 感谢您的报告！
+       请认真填写以下信息，否则可能由于无法定位，导致issue无法解决而被取消。
+
+  - type: dropdown
+    id: test_type
+    attributes:
+      label: "阶段"
+      multiple: true
+      options:
+        - 资料检视
+        - 测试和验收        
+        - 资料专项优化        
+        - 现网问题维护       
+        
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: 资料版本
+      options:
+        - BoostKit 25.3.0
+        - BoostKit 26.0.0
+        - BoostKit 26.1.0
+        - BoostKit 26.2.0
+        - BoostKit 26.3.0
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: 严重级别
+      options:
+        - Serious
+        - Main
+        - Secondary
+        - Optional
+        - No priority
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 内容描述
+      placeholder: "
+      【文档链接】：
+      【内容描述】：      
+      "
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: 提单组织
+      options:
+        - 外部社区用户        
+        - 内部测试
+        - 内部开发
+        - 内部服务、PAE、SA等
+        - 内部资料        
+    validations:
+      required: true
+
