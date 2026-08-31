@@ -50,10 +50,10 @@ body:
     attributes:
       label: 内容描述
       placeholder: 
-      "
-      【文档链接】：
-      【内容描述】：      
-      "
+        " 
+        【文档链接】：
+        【内容描述】：      
+        "
     validations:
       required: true
 
