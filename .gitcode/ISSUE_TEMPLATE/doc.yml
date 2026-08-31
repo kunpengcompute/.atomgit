@@ -8,7 +8,7 @@ body:
     attributes:
       value: |
        ## 感谢您的报告！
-       感谢您为项目贡献资料反馈信息！请。
+       感谢您为项目贡献资料反馈信息！请按照以下提示提供详细信息，以便我们更好地理解并跟进。
 
   - type: dropdown
     id: test_type
