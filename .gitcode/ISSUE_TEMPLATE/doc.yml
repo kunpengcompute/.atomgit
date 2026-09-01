@@ -39,10 +39,10 @@ body:
     attributes:
       label: 严重级别
       options:
-        - 致命
         - 严重
+        - 主要
         - 一般
-        - 建议        
+        - 不重要        
     validations:
       required: true
 
