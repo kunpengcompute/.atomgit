@@ -26,12 +26,13 @@ body:
   - type: dropdown
     attributes:
       label: 资料版本
-      options:
+      options:        
         - BoostKit 25.3.0
         - BoostKit 26.0.0
         - BoostKit 26.1.0
         - BoostKit 26.2.0
         - BoostKit 26.3.0
+        - 其他
     validations:
       required: true
 
