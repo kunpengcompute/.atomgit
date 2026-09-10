@@ -8,7 +8,6 @@ __1.  AI Agent :
 __2.  AI Model :  
 __3.  Prompt : 
 
-Reference:  [BoostKit Community Generative AI Use and Open Source Contribution Policy]
 
 ### What this PR does / why we need it:
 
